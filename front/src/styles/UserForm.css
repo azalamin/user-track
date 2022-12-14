@@ -1,0 +1,17 @@
+.form{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.sector-container fieldset legend{
+    width: 3rem;
+}
+
+.submit-btn{
+    padding: 0.5rem 0rem;
+    width: 30%;
+    margin: auto;
+}
