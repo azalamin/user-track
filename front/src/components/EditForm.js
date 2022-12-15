@@ -1,26 +1,25 @@
 import HomeIcon from '@mui/icons-material/Home';
 import SaveIcon from '@mui/icons-material/Save';
 import {
-	Box,
-	Button,
-	Checkbox,
-	FormControl,
-	FormControlLabel,
-	FormHelperText,
-	FormLabel,
-	InputLabel,
-	MenuItem,
-	Select,
-	TextField,
-	Typography
+    Box,
+    Button,
+    Checkbox,
+    FormControl,
+    FormControlLabel,
+    FormHelperText,
+    FormLabel,
+    InputLabel,
+    MenuItem,
+    Select,
+    TextField,
+    Typography
 } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { toast } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 import '../styles/UserForm.css';
 import Loading from './Loading';
 
-const UserForm = () => {
+const EditForm = ({ userId }) => {
 	const [sectors, setSectors] = useState({});
 	const [name, setName] = useState('');
 	const [sector, setSector] = useState('');
@@ -28,7 +27,7 @@ const UserForm = () => {
 	const [checked, setChecked] = useState(false);
 	const [nameError, setNameError] = useState('');
 	const [sectorError, setSectorError] = useState('');
-	const location = useLocation();
+	const [currentUser, setCurrentUser] = useState({});
 
 	useEffect(() => {
 		fetch('http://localhost:5000/sector')
@@ -37,6 +36,15 @@ const UserForm = () => {
 				setSectors(data[0]);
 			});
 	}, [setSectors]);
+
+	useEffect(() => {
+		fetch(`http://localhost:5000/my-info/${userId}`)
+			.then(res => res.json())
+			.then(user => {
+				setCurrentUser(user);
+                console.log(user);
+			});
+	}, [userId]);
 
 	const handleName = event => {
 		setName(event.target.value);
@@ -68,24 +76,25 @@ const UserForm = () => {
 		}
 
 		if (name !== '' && sector !== '') {
-			fetch('http://localhost:5000/user', {
-				method: 'POST',
-				headers: {
-					'content-type': 'application/json',
-				},
-				body: JSON.stringify(userData),
-			})
-				.then(res => res.json())
-				.then(data => {
-					if (data?.insertedId) {
-						toast.success('Successfully user info added!');
-						setName('');
-						setSector('');
-						e.target.reset();
-					} else {
-						toast.error('Failed to add user info');
-					}
-				});
+			// fetch('http://localhost:5000/user', {
+			// 	method: 'POST',
+			// 	headers: {
+			// 		'content-type': 'application/json',
+			// 	},
+			// 	body: JSON.stringify(userData),
+			// })
+			// 	.then(res => res.json())
+			// 	.then(data => {
+			// 		if (data?.insertedId) {
+			// 			toast.success('Successfully user info added!');
+			// 			setName('');
+			// 			setSector('');
+			// 			e.target.reset();
+			// 		} else {
+			// 			toast.error('Failed to add user info');
+			// 		}
+			// 	});
+            // console.log(userId);
 		}
 	};
 
@@ -131,7 +140,7 @@ const UserForm = () => {
 								<TextField
 									id='outlined-required'
 									label='Name'
-									defaultValue=''
+									defaultValue={`${currentUser.name}`}
 									name='name'
 									onChange={handleName}
 								/>
@@ -304,4 +313,4 @@ const UserForm = () => {
 	);
 };
 
-export default UserForm;
+export default EditForm;

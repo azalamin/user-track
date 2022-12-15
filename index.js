@@ -21,6 +21,7 @@ async function run() {
 	try {
 		await client.connect();
 		const sectorCollection = client.db('User_Tracker').collection('sectors');
+		const userDataCollection = client.db('User_Tracker').collection('user-data');
 		console.log('db connected');
 
 		app.get('/sector', async (req, res) => {
@@ -28,9 +29,29 @@ async function run() {
 			res.send(result);
 		});
 
-		app.post('/task', async (req, res) => {
-			const task = req.body;
-			const result = await sectorCollection.insertOne(task);
+		app.post('/user', async (req, res) => {
+			const userData = req.body;
+			const result = await userDataCollection.insertOne(userData);
+			res.send(result);
+		});
+
+		app.get('/user-info', async (req, res) => {
+			const result = await userDataCollection.find().toArray();
+			res.send(result);
+		});
+
+		app.get('/my-info/:id', async (req, res) => {
+			const id = req.params.id;
+			console.log(id)
+			const query = { _id: ObjectId(id) };
+			const result = await userDataCollection.findOne(query);
+			res.send(result);
+		});
+
+		app.delete('/user/:id', async (req, res) => {
+			const id = req.params.id;
+			const query = { _id: ObjectId(id) };
+			const result = await userDataCollection.deleteOne(query);
 			res.send(result);
 		});
 
@@ -47,12 +68,7 @@ async function run() {
 			res.send(result);
 		});
 
-		app.delete('/task/:id', async (req, res) => {
-			const id = req.params.id;
-			const query = { _id: ObjectId(id) };
-			const result = await sectorCollection.deleteOne(query);
-			res.send(result);
-		});
+		
 	} finally {
 		// await client.close();
 	}

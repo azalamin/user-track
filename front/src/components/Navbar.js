@@ -79,7 +79,7 @@ const NavBar = () => {
 			open={isMobileMenuOpen}
 			onClose={handleMobileMenuClose}
 		>
-			<MenuItem>
+			<MenuItem onClick={() => navigate('/add-user')}>
 				<IconButton size='large' aria-label='show 4 new mails' color='inherit'>
 					<Badge badgeContent={0} color='error'>
 						<PersonIcon />
