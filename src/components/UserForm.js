@@ -31,7 +31,7 @@ const UserForm = () => {
 	const location = useLocation();
 
 	useEffect(() => {
-		fetch('http://localhost:5000/sector')
+		fetch('https://user-tracker-server-jatwd96wu-azalamin.vercel.app/sector')
 			.then(res => res.json())
 			.then(data => {
 				setSectors(data[0]);
@@ -68,7 +68,7 @@ const UserForm = () => {
 		}
 
 		if (name !== '' && sector !== '') {
-			fetch('http://localhost:5000/user', {
+			fetch('https://user-tracker-server-jatwd96wu-azalamin.vercel.app/user', {
 				method: 'POST',
 				headers: {
 					'content-type': 'application/json',

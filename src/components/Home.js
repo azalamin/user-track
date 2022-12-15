@@ -7,7 +7,9 @@ import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import { experimentalStyled as styled } from '@mui/material/styles';
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 import EditForm from './EditForm';
+import Loading from './Loading';
 import NavBar from './Navbar';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -26,7 +28,7 @@ const Home = () => {
 	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {
-		fetch('http://localhost:5000/user-info')
+		fetch('https://user-tracker-server-jatwd96wu-azalamin.vercel.app/user-info')
 			.then(res => res.json())
 			.then(data => {
 				setUserInfo(data);
@@ -34,7 +36,7 @@ const Home = () => {
 	}, [deleted]);
 
 	const handleDelete = id => {
-		fetch(`http://localhost:5000/user/${id}`, {
+		fetch(`https://user-tracker-server-jatwd96wu-azalamin.vercel.app/user/${id}`, {
 			method: 'DELETE',
 			headers: {
 				'content-type': 'application/json',
@@ -43,14 +45,14 @@ const Home = () => {
 			.then(res => res.json())
 			.then(data => {
 				setDeleted(data);
-				// toast.success('Task Deleted Successfully');
+				toast.success('Task Deleted Successfully');
 			});
 	};
 
 	const handleClickOpen = (id) => {
 		setOpen(true);
 		setLoading(true)
-		fetch(`http://localhost:5000/my-info/${id}`)
+		fetch(`https://user-tracker-server-jatwd96wu-azalamin.vercel.app/my-info/${id}`)
 			.then(res => res.json())
 			.then(data => {
 				console.log(data);
@@ -74,7 +76,7 @@ const Home = () => {
 					xs: '3rem 1rem',
 				}}
 			>
-				<Box sx={{ flexGrow: 1 }}>
+				{userInfo ? <Box sx={{ flexGrow: 1 }}>
 					<Grid container spacing={{ xs: 4, md: 5 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 						{userInfo?.map((card, index) => (
 							<Grid item xs={4} sm={4} md={4} key={index} >
@@ -153,7 +155,7 @@ const Home = () => {
 							</Grid>
 						))}
 					</Grid>
-				</Box>
+				</Box> : <Loading />}
 			</Box>
 			<EditForm
 				open={open}

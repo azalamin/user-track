@@ -1,16 +1,16 @@
 import SaveIcon from '@mui/icons-material/Save';
 import {
-	Box,
-	Checkbox,
-	FormControl,
-	FormControlLabel,
-	FormHelperText,
-	FormLabel,
-	InputLabel,
-	MenuItem,
-	Select,
-	TextField,
-	Typography
+    Box,
+    Checkbox,
+    FormControl,
+    FormControlLabel,
+    FormHelperText,
+    FormLabel,
+    InputLabel,
+    MenuItem,
+    Select,
+    TextField,
+    Typography
 } from '@mui/material';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
@@ -33,7 +33,7 @@ const EditForm = ({ open, handleClose, currentUser, loading, setDeleted }) => {
 	const [name, setName] = useState(currentUser?.name);
 
 	useEffect(() => {
-		fetch('http://localhost:5000/sector')
+		fetch('https://user-tracker-server-jatwd96wu-azalamin.vercel.app/sector')
 			.then(res => res.json())
 			.then(data => {
 				setSectors(data[0]);
@@ -62,7 +62,7 @@ const EditForm = ({ open, handleClose, currentUser, loading, setDeleted }) => {
 		}
 
 		if (name !== '' && sector !== '') {
-			fetch(`http://localhost:5000/user/${currentUser?._id}`, {
+			fetch(`https://user-tracker-server-jatwd96wu-azalamin.vercel.app/user/${currentUser?._id}`, {
 				method: 'PUT',
 				headers: {
 					'content-type': 'application/json',
