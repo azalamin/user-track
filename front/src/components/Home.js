@@ -7,7 +7,7 @@ import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import { experimentalStyled as styled } from '@mui/material/styles';
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import EditForm from './EditForm';
 import NavBar from './Navbar';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -18,10 +18,12 @@ const Item = styled(Paper)(({ theme }) => ({
 	color: '#4B4B4B',
 }));
 
-const Home = ({ handleUpdateUser }) => {
-	const navigate = useNavigate();
+const Home = () => {
 	const [userInfo, setUserInfo] = useState([]);
 	const [deleted, setDeleted] = useState({});
+	const [open, setOpen] = React.useState(false);
+	const [currentUser, setCurrentUser] = useState({});
+	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {
 		fetch('http://localhost:5000/user-info')
@@ -45,6 +47,22 @@ const Home = ({ handleUpdateUser }) => {
 			});
 	};
 
+	const handleClickOpen = (id) => {
+		setOpen(true);
+		setLoading(true)
+		fetch(`http://localhost:5000/my-info/${id}`)
+			.then(res => res.json())
+			.then(data => {
+				console.log(data);
+				setCurrentUser(data);
+				setLoading(false)
+			});
+	};
+
+	const handleClose = () => {
+		setOpen(false);
+	};
+
 	return (
 		<Box>
 			<NavBar />
@@ -59,7 +77,7 @@ const Home = ({ handleUpdateUser }) => {
 				<Box sx={{ flexGrow: 1 }}>
 					<Grid container spacing={{ xs: 4, md: 5 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 						{userInfo?.map((card, index) => (
-							<Grid item xs={4} sm={4} md={4} key={index}>
+							<Grid item xs={4} sm={4} md={4} key={index} >
 								<Item
 									sx={{
 										textAlign: { xs: 'center', md: 'left' },
@@ -101,6 +119,7 @@ const Home = ({ handleUpdateUser }) => {
 										</span>{' '}
 										{card?.sector}
 									</Typography>
+
 									<Stack
 										direction='row'
 										spacing={2}
@@ -111,8 +130,7 @@ const Home = ({ handleUpdateUser }) => {
 										}}
 									>
 										<Button
-											onClick={() => {
-												navigate('/edit')}}
+											onClick={() => handleClickOpen(card._id)}
 											size='small'
 											variant='outlined'
 											startIcon={<EditIcon />}
@@ -137,6 +155,13 @@ const Home = ({ handleUpdateUser }) => {
 					</Grid>
 				</Box>
 			</Box>
+			<EditForm
+				open={open}
+				handleClose={handleClose}
+				currentUser={currentUser}
+				loading={loading}
+				setDeleted={setDeleted}
+			/>
 		</Box>
 	);
 };

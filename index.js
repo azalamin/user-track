@@ -55,16 +55,14 @@ async function run() {
 			res.send(result);
 		});
 
-		app.patch('/task/:id', async (req, res) => {
+		app.put('/user/:id', async (req, res) => {
 			const id = req.params.id;
-			const { isCompleted } = req.body;
+			const userData = req.body;
 			const query = { _id: ObjectId(id) };
 			const updatedDoc = {
-				$set: {
-					isCompleted: true,
-				},
+				$set: userData,
 			};
-			const result = await sectorCollection.updateOne(query, updatedDoc);
+			const result = await userDataCollection.updateOne(query, updatedDoc);
 			res.send(result);
 		});
 
