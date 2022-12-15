@@ -15,7 +15,7 @@ import {
 	Typography
 } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import '../styles/UserForm.css';
 import Loading from './Loading';
@@ -28,14 +28,14 @@ const UserForm = () => {
 	const [checked, setChecked] = useState(false);
 	const [nameError, setNameError] = useState('');
 	const [sectorError, setSectorError] = useState('');
-	const location = useLocation();
 
 	useEffect(() => {
-		fetch('https://user-tracker-server-jatwd96wu-azalamin.vercel.app/sector')
-			.then(res => res.json())
-			.then(data => {
-				setSectors(data[0]);
-			});
+		const loadData = async () => {
+			let result = await fetch('https://user-tracker-server-jatwd96wu-azalamin.vercel.app/sector');
+			result = await result.json();
+			setSectors(result[0]);
+		};
+		loadData();
 	}, [setSectors]);
 
 	const handleName = event => {

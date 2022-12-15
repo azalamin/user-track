@@ -28,11 +28,14 @@ const Home = () => {
 	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {
-		fetch('https://user-tracker-server-jatwd96wu-azalamin.vercel.app/user-info')
-			.then(res => res.json())
-			.then(data => {
-				setUserInfo(data);
-			});
+		const loadData = async () => {
+			let result = await fetch(
+				'https://user-tracker-server-jatwd96wu-azalamin.vercel.app/user-info'
+			);
+			result = await result.json();
+			setUserInfo(result);
+		};
+		loadData();
 	}, [deleted]);
 
 	const handleDelete = id => {
@@ -49,16 +52,16 @@ const Home = () => {
 			});
 	};
 
-	const handleClickOpen = id => {
+	const handleClickOpen = async id => {
 		setOpen(true);
 		setLoading(true);
-		fetch(`https://user-tracker-server-jatwd96wu-azalamin.vercel.app/my-info/${id}`)
-			.then(res => res.json())
-			.then(data => {
-				console.log(data);
-				setCurrentUser(data);
-				setLoading(false);
-			});
+		let result = await fetch(
+			`https://user-tracker-server-jatwd96wu-azalamin.vercel.app/my-info/${id}`
+		);
+		result = await result.json();
+		setCurrentUser(result);
+		setLoading(false);
+		
 	};
 
 	const handleClose = () => {
@@ -76,7 +79,7 @@ const Home = () => {
 					xs: '3rem 1rem',
 				}}
 			>
-				{userInfo ? (
+				{!userInfo ? (
 					<Loading />
 				) : (
 					<Box sx={{ flexGrow: 1 }}>
