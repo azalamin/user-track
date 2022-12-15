@@ -26,7 +26,7 @@ const Home = () => {
 	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {
-		fetch('https://user-track.vercel.app/user-info')
+		fetch('http://localhost:5000/user-info')
 			.then(res => res.json())
 			.then(data => {
 				setUserInfo(data);
@@ -34,7 +34,7 @@ const Home = () => {
 	}, [deleted]);
 
 	const handleDelete = id => {
-		fetch(`https://user-track.vercel.app/user/${id}`, {
+		fetch(`http://localhost:5000/user/${id}`, {
 			method: 'DELETE',
 			headers: {
 				'content-type': 'application/json',
@@ -50,12 +50,12 @@ const Home = () => {
 	const handleClickOpen = (id) => {
 		setOpen(true);
 		setLoading(true)
-		fetch(`https://user-track.vercel.app/my-info/${id}`)
+		fetch(`http://localhost:5000/my-info/${id}`)
 			.then(res => res.json())
 			.then(data => {
 				console.log(data);
 				setCurrentUser(data);
-				setLoading(false);
+				setLoading(false)
 			});
 	};
 

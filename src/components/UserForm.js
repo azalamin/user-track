@@ -31,7 +31,7 @@ const UserForm = () => {
 	const location = useLocation();
 
 	useEffect(() => {
-		fetch('https://user-track.vercel.app/sector')
+		fetch('http://localhost:5000/sector')
 			.then(res => res.json())
 			.then(data => {
 				setSectors(data[0]);
@@ -68,7 +68,7 @@ const UserForm = () => {
 		}
 
 		if (name !== '' && sector !== '') {
-			fetch('https://user-track.vercel.app/user', {
+			fetch('http://localhost:5000/user', {
 				method: 'POST',
 				headers: {
 					'content-type': 'application/json',

@@ -33,7 +33,7 @@ const EditForm = ({ open, handleClose, currentUser, loading, setDeleted }) => {
 	const [name, setName] = useState(currentUser?.name);
 
 	useEffect(() => {
-		fetch('https://user-track.vercel.app/sector')
+		fetch('http://localhost:5000/sector')
 			.then(res => res.json())
 			.then(data => {
 				setSectors(data[0]);
@@ -62,7 +62,7 @@ const EditForm = ({ open, handleClose, currentUser, loading, setDeleted }) => {
 		}
 
 		if (name !== '' && sector !== '') {
-			fetch(`https://user-track.vercel.app/user/${currentUser?._id}`, {
+			fetch(`http://localhost:5000/user/${currentUser?._id}`, {
 				method: 'PUT',
 				headers: {
 					'content-type': 'application/json',
