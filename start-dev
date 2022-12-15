@@ -1,322 +1,0 @@
-Script started on Thu Dec 15 06:33:07 2022
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4 [30m?5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[9C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 06:33:07 AM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[30D[?1h=[?2004hnnodemon i[Kndex.js[16D[7mn[7mo[7md[7me[7mm[7mo[7mn[7m [7mi[7mn[7md[7me[7mx[7m.[7mj[7ms[27m[16D[27mn[27mo[27md[27me[27mm[27mo[27mn[27m [27mi[27mn[27md[27me[27mx[27m.[27mj[27ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m nodemon index.js[K[?12l[?25h
-]2;nodemon index.js]1;nodemonzsh: command not found: nodemon
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4 [30m?5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[5C[0m[49m[31m[0m[31m[41m[33m 127[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 06:33:20 AM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[30D[?1h=[?2004hss[90mcript start-dev[39m[K[15Ds[39mt[K[3C[0m[49m[31m[0m[31m[41m[33m 127[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 06:33:20 AM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[28D[90mart-dev[39m[K[39ma[39mr[39mt[39m-[39md[39me[39mv[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m start-dev[K[?12l[?25h
-]2;start-dev]1;start-devzsh: command not found: start-dev
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4 [30m?5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[5C[0m[49m[31m[0m[31m[41m[33m 127[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 06:33:50 AM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[30D[?1h=[?2004hnn[90modemon index.js[39m[K[15Dn[39mo[39md[39me[39mm[39mo[39mn[39m [39mi[39mn[39md[39me[39mx[39m.[39mj[39ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m nodemon index.js[K[?12l[?25h
-]2;nodemon index.js]1;nodemonzsh: command not found: nodemon
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4 [30m?5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[5C[0m[49m[31m[0m[31m[41m[33m 127[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 06:39:10 AM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[30D[?1h=[?2004hnn[90modemon index.js[39m[K[15Dn[39mo[39md[39me[39mm[39mo[39mn[39m [39mi[39mn[39md[39me[39mx[39m.[39mj[39ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m nodemon index.js[K[?12l[?25h
-]2;nodemon index.js]1;nodemonzsh: command not found: nodemon
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4 [30m?5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[5C[0m[49m[31m[0m[31m[41m[33m 127[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 06:39:43 AM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[30D[?1h=[?2004hnnode i[Kndex.js[13D[7mn[7mo[7md[7me[7m [7mi[7mn[7md[7me[7mx[7m.[7mj[7ms[27m[13D[27mn[27mo[27md[27me[27m [27mi[27mn[27md[27me[27mx[27m.[27mj[27ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodenode:internal/modules/cjs/loader:959
-  throw err;
-  ^
-
-Error: Cannot find module 'cors'
-Require stack:
-- /Users/azalamin/Office/user-track/index.js
-[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:956:15)[39m
-[90m    at Module._load (node:internal/modules/cjs/loader:804:27)[39m
-[90m    at Module.require (node:internal/modules/cjs/loader:1022:19)[39m
-[90m    at require (node:internal/modules/cjs/helpers:102:18)[39m
-    at Object.<anonymous> [90m(/Users/azalamin/Office/user-track/[39mindex.js:2:14[90m)[39m
-[90m    at Module._compile (node:internal/modules/cjs/loader:1120:14)[39m
-[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1174:10)[39m
-[90m    at Module.load (node:internal/modules/cjs/loader:998:32)[39m
-[90m    at Module._load (node:internal/modules/cjs/loader:839:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m {
-  code: [32m'MODULE_NOT_FOUND'[39m,
-  requireStack: [ [32m'/Users/azalamin/Office/user-track/index.js'[39m ]
-}
-
-Node.js v18.6.0
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4 [30m?5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[7C[0m[49m[31m[0m[31m[41m[33m 1[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 06:39:56 AM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[30D[?1h=[?2004hnode index.js[K[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!5 [30m?1[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-{}
-{}
-{}
-{}
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!6 [30m?1[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-{
-  name: [32m'AL AMIN SHEIKH'[39m,
-  sector: [32m'Construction materials'[39m,
-  checked: [33mtrue[39m
-}
-{ name: [32m'Sadman Sadik'[39m, sector: [32m'Boat building'[39m, checked: [33mtrue[39m }
-{ name: [32m'Sadman Sadik'[39m, sector: [32m'Boat building'[39m, checked: [33mtrue[39m }
-{ name: [32m'Sadman Sadik'[39m, sector: [32m'Boat building'[39m, checked: [33mtrue[39m }
-{ name: [32m'Sadman Sadik'[39m, sector: [32m'Boat building'[39m, checked: [33mtrue[39m }
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!7 [30m?1[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnn[90mode index.js[39m[12Dn[39mo[39md[39me[39m [39mi[39mn[39md[39me[39mx[39m.[39mj[39ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!7 [30m?1[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!7 [30m?1[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-639a9ad6165c2fda17a4a3b2
-639a9ad5165c2fda17a4a3b1
-639a9ad4165c2fda17a4a3b0
-639a9ac0165c2fda17a4a3af
-{ name: [32m'Alex Rayan'[39m, sector: [32m'Machinary Components'[39m, checked: [33mtrue[39m }
-{
-  name: [32m'AL AMIN SHEIKH'[39m,
-  sector: [32m'Bakery & confectionery products'[39m,
-  checked: [33mtrue[39m
-}
-{
-  name: [32m'AL AMIN SHEIKH'[39m,
-  sector: [32m'Sweets & snack food'[39m,
-  checked: [33mtrue[39m
-}
-{
-  name: [32m'AL AMIN SHEIKH'[39m,
-  sector: [32m'Sweets & snack food'[39m,
-  checked: [33mtrue[39m
-}
-{
-  name: [32m'AL AMIN SHEIKH'[39m,
-  sector: [32m'Fish & fish products'[39m,
-  checked: [33mtrue[39m
-}
-{
-  name: [32m'AL AMIN SHEIKH'[39m,
-  sector: [32m'Fish & fish products'[39m,
-  checked: [33mtrue[39m
-}
-{
-  name: [32m'AL AMIN SHEIKH'[39m,
-  sector: [32m'Fish & fish products'[39m,
-  checked: [33mtrue[39m
-}
-{
-  name: [32m'AL AMIN SHEIKH'[39m,
-  sector: [32m'Sweets & snack food'[39m,
-  checked: [33mtrue[39m
-}
-639aa1f268a68dba1f3df2e2
-639aa1e068a68dba1f3df2e1
-639aa1a568a68dba1f3df2e0
-639aa19a68a68dba1f3df2df
-639aa17568a68dba1f3df2de
-639aa14d68a68dba1f3df2dd
-639aa13e68a68dba1f3df2dc
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!10 [30m?2[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnn[90mode index.js[39m[12Dn[39mo[39md[39me[39m [39mi[39mn[39md[39me[39mx[39m.[39mj[39ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!10 [30m?2[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!10 [30m?2[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnn[90mode index.js[39m[12Dn[39mo[39md[39me[39m [39mi[39mn[39md[39me[39mx[39m.[39mj[39ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!10 [30m?2[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!10 [30m?2[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!10 [30m?2[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!10 [30m?2[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-undefined
-/Users/azalamin/Office/user-track/node_modules/bson/lib/error.js:41
-        var _this = _super.call(this, message) || this;
-                           ^
-
-BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
-    at new BSONTypeError [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mbson[24m/lib/error.js:41:28[90m)[39m
-    at new ObjectId [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mbson[24m/lib/objectid.js:67:23[90m)[39m
-    at ObjectId [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mbson[24m/lib/objectid.js:26:20[90m)[39m
-    at [90m/Users/azalamin/Office/user-track/[39mindex.js:46:25
-    at Layer.handle [as handle_request] [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/layer.js:95:5[90m)[39m
-    at next [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/route.js:144:13[90m)[39m
-    at Route.dispatch [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/route.js:114:3[90m)[39m
-    at Layer.handle [as handle_request] [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/layer.js:95:5[90m)[39m
-    at [90m/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/index.js:284:15
-    at param [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/index.js:365:14[90m)[39m
-
-Node.js v18.6.0
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-undefined
-/Users/azalamin/Office/user-track/node_modules/bson/lib/error.js:41
-        var _this = _super.call(this, message) || this;
-                           ^
-
-BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
-    at new BSONTypeError [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mbson[24m/lib/error.js:41:28[90m)[39m
-    at new ObjectId [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mbson[24m/lib/objectid.js:67:23[90m)[39m
-    at ObjectId [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mbson[24m/lib/objectid.js:26:20[90m)[39m
-    at [90m/Users/azalamin/Office/user-track/[39mindex.js:46:25
-    at Layer.handle [as handle_request] [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/layer.js:95:5[90m)[39m
-    at next [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/route.js:144:13[90m)[39m
-    at Route.dispatch [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/route.js:114:3[90m)[39m
-    at Layer.handle [as handle_request] [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/layer.js:95:5[90m)[39m
-    at [90m/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/index.js:284:15
-    at param [90m(/Users/azalamin/Office/user-track/[39mnode_modules/[4mexpress[24m/lib/router/index.js:365:14[90m)[39m
-
-Node.js v18.6.0
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnn[90mode index.js[39m[12Dn[39mo[39md[39me[39m [39mi[39mn[39md[39me[39mx[39m.[39mj[39ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!4[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnode index.js[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aa03f68a68dba1f3df2db
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hnn[90mode index.js[39m[12Dn[39mo[39md[39me[39m [39mi[39mn[39md[39me[39mx[39m.[39mj[39ms[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
-639a9a91165c2fda17a4a3ae
-639a9a91165c2fda17a4a3ae
-639aba62347301a94d3e9cc5
-639aba62347301a94d3e9cc5
-639a9a91165c2fda17a4a3ae
-639ac5f3650e7ad281e71c0c
-^C
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[?1h=[?2004hgg[90mit clone https://gitlab.com/simpl[90me[90mm1/thinnai/web-base.git[39m[K[A[23Cg[39mi[39mt[39m [39ma[K[1B[K[A[51C[90mdd .[39m[39md[39md[39m [39m.[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m git add .[K[?12l[?25h
-]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m+7[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[12C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 01:20:00 PM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[33D[?1h=[?2004hgg[90mit add .[39m[8Dg[39mi[39mt[39m [39mc[39m [39m [39m [39m [90mlone https://gitlab.com/simpl[90me[90mm1/thinnai/web-base.git[39m[K[A[27C[39mo[K[6C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 01:20:00 PM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[1B[K[A[52C[90mmmit -m'host nav updated'[39m[K[25D[39mm[39mm[39mi[39mt[39m [39m-[39mm[39m'[39mb[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[90mook instantly added[90m'[39m[K[A[60C[39ma[K[1B[K[A[62C[90mckpack one issue s[90mo[90mlved'[39m[K[A[56C[39mc[39mk[39me[K[1B[K[A[65Cnd done'[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m git commit -m'backend done'[K[?12l[?25h
-]2;git commit -m'backend done']1;git[main 606376d] backend done
- 7 files changed, 423 insertions(+), 335 deletions(-)
- rewrite front/src/components/EditForm.js (78%)
- create mode 100644 vercel.json
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m⇡1 [30m!1[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[9C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 01:20:10 PM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[30D[?1h=[?2004hgg[90mit commit -m'backend done'[39m[K[26Dg[39mi[39mt[39m [39mp[K[4C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 01:20:10 PM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[25D[90mull[39m[39mu[39ms[39m [90mh[39m[39mh[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m git push[K[?12l[?25h
-]2;git push]1;gitEnumerating objects: 22, done.
-Counting objects:   4% (1/22)Counting objects:   9% (2/22)Counting objects:  13% (3/22)Counting objects:  18% (4/22)Counting objects:  22% (5/22)Counting objects:  27% (6/22)Counting objects:  31% (7/22)Counting objects:  36% (8/22)Counting objects:  40% (9/22)Counting objects:  45% (10/22)Counting objects:  50% (11/22)Counting objects:  54% (12/22)Counting objects:  59% (13/22)Counting objects:  63% (14/22)Counting objects:  68% (15/22)Counting objects:  72% (16/22)Counting objects:  77% (17/22)Counting objects:  81% (18/22)Counting objects:  86% (19/22)Counting objects:  90% (20/22)Counting objects:  95% (21/22)Counting objects: 100% (22/22)Counting objects: 100% (22/22), done.
-Delta compression using up to 8 threads
-Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
-Writing objects:   8% (1/12)Writing objects:  16% (2/12)Writing objects:  25% (3/12)Writing objects:  33% (4/12)Writing objects:  41% (5/12)Writing objects:  50% (6/12)Writing objects:  58% (7/12)Writing objects:  66% (8/12)Writing objects:  75% (9/12)Writing objects:  83% (10/12)Writing objects:  91% (11/12)Writing objects: 100% (12/12)Writing objects: 100% (12/12), 3.20 KiB | 3.20 MiB/s, done.
-Total 12 (delta 8), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/8)[Kremote: Resolving deltas:  12% (1/8)[Kremote: Resolving deltas:  25% (2/8)[Kremote: Resolving deltas:  37% (3/8)[Kremote: Resolving deltas:  50% (4/8)[Kremote: Resolving deltas:  62% (5/8)[Kremote: Resolving deltas:  75% (6/8)[Kremote: Resolving deltas:  87% (7/8)[Kremote: Resolving deltas: 100% (8/8)[Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
-To https://github.com/azalamin/user-track.git
-   9242884..606376d  main -> main
-[1m[7m%[27m[1m[0m                                                                                ]2;azalamin@MackBook:~/office/user-track]1;..ce/user-track[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m  [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/office/[1m[38;5;254m[44m[38;5;255muser-track[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m   [30m main [30m!1[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m[K[12C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 01:20:17 PM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[33D[?1h=[?2004hgit pushcommit -m'backend done'[K[23Dadd .[K[3C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 01:20:17 PM[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[24D[9Dnode index.js[K[?1l>[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m node index.js[K[?12l[?25h
-]2;node index.js]1;nodeListen to the port [33m5000[39m
-db connected
