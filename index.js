@@ -1,0 +1,68 @@
+const express = require('express');
+const cors = require('cors');
+const port = process.env.PORT || 5000;
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
+require('dotenv').config();
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+const uri = `mongodb+srv://usertracker:${process.env.DB_PASS}@cluster0.2jfkpef.mongodb.net/?retryWrites=true&w=majority`;
+// const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.ordcu.mongodb.net/?retryWrites=true&w=majority`;
+
+const client = new MongoClient(uri, {
+	useNewUrlParser: true,
+	useUnifiedTopology: true,
+	serverApi: ServerApiVersion.v1,
+});
+
+async function run() {
+	try {
+		await client.connect();
+		const sectorCollection = client.db('User_Tracker').collection('sectors');
+		console.log('db connected');
+
+		app.get('/sector', async (req, res) => {
+			const result = await sectorCollection.find().toArray();
+			res.send(result);
+		});
+
+		app.post('/task', async (req, res) => {
+			const task = req.body;
+			const result = await sectorCollection.insertOne(task);
+			res.send(result);
+		});
+
+		app.patch('/task/:id', async (req, res) => {
+			const id = req.params.id;
+			const { isCompleted } = req.body;
+			const query = { _id: ObjectId(id) };
+			const updatedDoc = {
+				$set: {
+					isCompleted: true,
+				},
+			};
+			const result = await sectorCollection.updateOne(query, updatedDoc);
+			res.send(result);
+		});
+
+		app.delete('/task/:id', async (req, res) => {
+			const id = req.params.id;
+			const query = { _id: ObjectId(id) };
+			const result = await sectorCollection.deleteOne(query);
+			res.send(result);
+		});
+	} finally {
+		// await client.close();
+	}
+}
+run().catch(console.dir);
+
+app.get('/', (req, res) => {
+	res.send('Welcome to user tracker app');
+});
+
+app.listen(port, () => {
+	console.log('Listen to the port', port);
+});

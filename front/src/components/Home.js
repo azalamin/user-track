@@ -20,6 +20,20 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const Home = () => {
 	const navigate = useNavigate();
+	const sectors = {
+		manufacturing: ['Construction materials', 'Electronics and Optics'],
+		FoodBeverage: [
+			'Bakery & confectionery products',
+			'Beverages',
+			'Fish & fish products',
+			'Meat & meat products',
+			'Milk & dairy products',
+			'Sweets & snack food',
+			'Other',
+		],
+		Machinary: ['Machinary Components', 'Machinary equipment/tools', 'Manufacture of Machinary'],
+		Maritime: ['Aluminium and steel workboats', 'Ship repair and conversion', 'Boat building'],
+	};
     const data = [
         {
             name: 'Asrafuzzaman',
@@ -52,6 +66,8 @@ const Home = () => {
             id: 6
         },
     ]
+
+	
     return (
 			<Box>
 				<NavBar />

@@ -1,27 +1,48 @@
 import HomeIcon from '@mui/icons-material/Home';
 import SaveIcon from '@mui/icons-material/Save';
-import { Box, Button, Checkbox, FormControl, FormControlLabel, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material';
-import React, { useState } from 'react';
+import {
+	Box,
+	Button,
+	Checkbox,
+	FormControl,
+	FormControlLabel,
+	FormLabel,
+	InputLabel,
+	MenuItem,
+	Select,
+	TextField,
+	Typography
+} from '@mui/material';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/UserForm.css';
 
-const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
-
 const UserForm = () => {
+	const [sectors, setSectors] = useState({});
 	const [age, setAge] = useState('');
 	const navigate = useNavigate();
 
-	const handleSubmit =(e)  => {
+	const handleSubmit = e => {
 		e.preventDefault();
 		console.log(e);
-	}
+	};
 
 	const handleChange = event => {
 		setAge(event.target.value);
 	};
 
+	useEffect(() => {
+		fetch('http://localhost:5000/sector')
+			.then(res => res.json())
+			.then(data => {
+				setSectors(data[0]);
+			});
+	}, [setSectors]);
+
+	console.log(sectors);
+
 	const [checked, setChecked] = React.useState([0]);
-	
+
 	return (
 		<Box bgcolor='#A3A3A3' height='100vh'>
 			<Box
@@ -70,9 +91,95 @@ const UserForm = () => {
 								label='Age'
 								onChange={handleChange}
 							>
-								<MenuItem value={10}>Ten</MenuItem>
+								{/* <MenuItem value={10}>Ten</MenuItem>
 								<MenuItem value={20}>Twenty</MenuItem>
-								<MenuItem value={30}>Thirty</MenuItem>
+								<MenuItem value={30}>Thirty</MenuItem> */}
+								<FormLabel
+									sx={{
+										paddingX: '1rem',
+										fontWeight: '700',
+										color: 'black',
+									}}
+								>
+									Manufacturing
+								</FormLabel>
+								{sectors?.manufacturing?.map((manufacture, index) => (
+									<MenuItem
+										sx={{
+											paddingLeft: '2rem !important',
+										}}
+										key={index}
+										value={manufacture}
+									>
+										{manufacture}
+									</MenuItem>
+								))}
+								<FormLabel
+									sx={{
+										paddingLeft: '1rem',
+										fontWeight: '700',
+										color: 'black',
+										marginTop: '0.6rem',
+										display: 'block',
+									}}
+								>
+									Food and Beverage
+								</FormLabel>
+								{sectors?.foodBeverage?.map((food, index) => (
+									<MenuItem
+										sx={{
+											paddingLeft: '2rem !important',
+										}}
+										key={index}
+										value={food}
+									>
+										{food}
+									</MenuItem>
+								))}
+								<FormLabel
+									sx={{
+										paddingX: '1rem',
+										fontWeight: '700',
+										color: 'black',
+										marginTop: '0.6rem',
+										display: 'block',
+									}}
+								>
+									Machinary
+								</FormLabel>
+								{sectors?.machinary?.map((machinary, index) => (
+									<MenuItem
+										sx={{
+											paddingLeft: '2rem !important',
+										}}
+										key={index}
+										value={machinary}
+									>
+										{machinary}
+									</MenuItem>
+								))}
+								<FormLabel
+									sx={{
+										paddingLeft: '2rem',
+										fontWeight: '700',
+										color: 'black',
+										display: 'block',
+										marginTop: '0.5rem',
+									}}
+								>
+									Maritime
+								</FormLabel>
+								{sectors?.maritime?.map((Maritime, index) => (
+									<MenuItem
+										sx={{
+											paddingLeft: '3rem !important',
+										}}
+										key={index}
+										value={Maritime}
+									>
+										{Maritime}
+									</MenuItem>
+								))}
 							</Select>
 						</FormControl>
 						<FormControlLabel
