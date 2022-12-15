@@ -49,15 +49,15 @@ const Home = () => {
 			});
 	};
 
-	const handleClickOpen = (id) => {
+	const handleClickOpen = id => {
 		setOpen(true);
-		setLoading(true)
+		setLoading(true);
 		fetch(`https://user-tracker-server-jatwd96wu-azalamin.vercel.app/my-info/${id}`)
 			.then(res => res.json())
 			.then(data => {
 				console.log(data);
 				setCurrentUser(data);
-				setLoading(false)
+				setLoading(false);
 			});
 	};
 
@@ -76,86 +76,90 @@ const Home = () => {
 					xs: '3rem 1rem',
 				}}
 			>
-				{userInfo ? <Box sx={{ flexGrow: 1 }}>
-					<Grid container spacing={{ xs: 4, md: 5 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-						{userInfo?.map((card, index) => (
-							<Grid item xs={4} sm={4} md={4} key={index} >
-								<Item
-									sx={{
-										textAlign: { xs: 'center', md: 'left' },
-										transition: '0.5s',
-										'&:hover': {
-											boxShadow: '0px 8px 15px rgba(0, 0, 0, 0.1)',
-										},
-									}}
-								>
-									<Typography
-										fontSize={{
-											md: '1.2rem',
-											xs: '1.1rem',
+				{userInfo ? (
+					<Loading />
+				) : (
+					<Box sx={{ flexGrow: 1 }}>
+						<Grid container spacing={{ xs: 4, md: 5 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+							{userInfo?.map((card, index) => (
+								<Grid item xs={4} sm={4} md={4} key={index}>
+									<Item
+										sx={{
+											textAlign: { xs: 'center', md: 'left' },
+											transition: '0.5s',
+											'&:hover': {
+												boxShadow: '0px 8px 15px rgba(0, 0, 0, 0.1)',
+											},
 										}}
-										lineHeight='1.4em'
 									>
-										<span
-											style={{
-												fontWeight: '600',
+										<Typography
+											fontSize={{
+												md: '1.2rem',
+												xs: '1.1rem',
 											}}
+											lineHeight='1.4em'
 										>
-											Name:{' '}
-										</span>
-										{card?.name}
-									</Typography>
-									<Typography
-										fontSize={{
-											md: '1.2rem',
-											xs: '1.1rem',
-										}}
-										lineHeight='1.4em'
-									>
-										<span
-											style={{
-												fontWeight: '600',
+											<span
+												style={{
+													fontWeight: '600',
+												}}
+											>
+												Name:{' '}
+											</span>
+											{card?.name}
+										</Typography>
+										<Typography
+											fontSize={{
+												md: '1.2rem',
+												xs: '1.1rem',
 											}}
+											lineHeight='1.4em'
 										>
-											Sector:
-										</span>{' '}
-										{card?.sector}
-									</Typography>
+											<span
+												style={{
+													fontWeight: '600',
+												}}
+											>
+												Sector:
+											</span>{' '}
+											{card?.sector}
+										</Typography>
 
-									<Stack
-										direction='row'
-										spacing={2}
-										mt='1.5rem'
-										justifyContent={{
-											md: 'flex-start',
-											xs: 'center',
-										}}
-									>
-										<Button
-											onClick={() => handleClickOpen(card._id)}
-											size='small'
-											variant='outlined'
-											startIcon={<EditIcon />}
-										>
-											Edit
-										</Button>
-										<Button
-											onClick={() => handleDelete(card?._id)}
-											variant='contained'
-											size='small'
-											sx={{
-												backgroundColor: '#F3A613',
+										<Stack
+											direction='row'
+											spacing={2}
+											mt='1.5rem'
+											justifyContent={{
+												md: 'flex-start',
+												xs: 'center',
 											}}
-											endIcon={<DeleteIcon />}
 										>
-											Delete
-										</Button>
-									</Stack>
-								</Item>
-							</Grid>
-						))}
-					</Grid>
-				</Box> : <Loading />}
+											<Button
+												onClick={() => handleClickOpen(card._id)}
+												size='small'
+												variant='outlined'
+												startIcon={<EditIcon />}
+											>
+												Edit
+											</Button>
+											<Button
+												onClick={() => handleDelete(card?._id)}
+												variant='contained'
+												size='small'
+												sx={{
+													backgroundColor: '#F3A613',
+												}}
+												endIcon={<DeleteIcon />}
+											>
+												Delete
+											</Button>
+										</Stack>
+									</Item>
+								</Grid>
+							))}
+						</Grid>
+					</Box>
+				)}
 			</Box>
 			<EditForm
 				open={open}
